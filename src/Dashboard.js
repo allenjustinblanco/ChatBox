@@ -82,7 +82,7 @@ export default function Dashboard() {
                             allChats[activeTopic].map((chat, i) => (
                                 <div className={classes.flex} key={i} >
                                     <Chip label={chat.from} className={classes.chip} />
-                                    <Typography variant='p'>{chat.msg}</Typography>
+                                    <Typography variant='body1'>{chat.msg}</Typography>
                                 </div>
                             ))
                         }
